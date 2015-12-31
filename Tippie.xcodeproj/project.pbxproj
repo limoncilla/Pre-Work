@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		B85797F61C2FB4DD00CEE26C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B85797F51C2FB4DD00CEE26C /* AppDelegate.swift */; };
 		B85797F81C2FB4DD00CEE26C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B85797F71C2FB4DD00CEE26C /* ViewController.swift */; };
-		B85797FB1C2FB4DD00CEE26C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B85797F91C2FB4DD00CEE26C /* Main.storyboard */; };
+		B85797FB1C2FB4DD00CEE26C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B85797F91C2FB4DD00CEE26C /* Main.storyboard */; settings = {ASSET_TAGS = (uilabel, ); }; };
 		B85797FD1C2FB4DD00CEE26C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B85797FC1C2FB4DD00CEE26C /* Assets.xcassets */; };
 		B85798001C2FB4DD00CEE26C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B85797FE1C2FB4DD00CEE26C /* LaunchScreen.storyboard */; };
 		B857980B1C2FB4DE00CEE26C /* TippieTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B857980A1C2FB4DE00CEE26C /* TippieTests.swift */; };
@@ -187,6 +187,9 @@
 		B85797EA1C2FB4DC00CEE26C /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				KnownAssetTags = (
+					uilabel,
+				);
 				LastSwiftUpdateCheck = 0720;
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = Limoncilla;
